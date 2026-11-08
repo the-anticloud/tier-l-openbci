@@ -1,0 +1,38 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:6f29746c-e1b7-5aea-a345-a2df47b6c7bd",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T20:37:36Z",
+    "component": {
+      "type": "application",
+      "name": "L_OPENBCI",
+      "version": "1a8a0a1f8c91",
+      "bom-ref": "pkg:generic/anticloud/L_OPENBCI@1a8a0a1f8c91",
+      "purl": "pkg:generic/anticloud/L_OPENBCI@1a8a0a1f8c91",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "1a8a0a1f8c9158b6c6a4714d605ba781c2630f64"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/OpenBCI/OpenBCI_Python"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": []
+}

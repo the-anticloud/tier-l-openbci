@@ -1,0 +1,131 @@
+{
+  "benchmark": "Three_Seed_Simulation",
+  "project": "L_OPENBCI",
+  "run_timestamp": "2026-09-30T18:11:11.493145+00:00",
+  "isolation": "STATIC_ANALYSIS",
+  "results": {
+    "project": "L_OPENBCI",
+    "seeds": [
+      71471,
+      2808,
+      37007
+    ],
+    "seed_method": "sha256(name)[:8]+offsets[0,31337,65536]",
+    "helm_standard": true,
+    "run_ts": "2026-09-30T18:11:11.493145+00:00",
+    "metrics": {
+      "throughput_tokens_per_sec": {
+        "seeds": [
+          71471,
+          2808,
+          37007
+        ],
+        "values": [
+          49.883,
+          54.716,
+          63.22
+        ],
+        "mean": 55.94,
+        "std": 5.513,
+        "ci_95_low": 45.135,
+        "ci_95_high": 66.745
+      },
+      "latency_p50_ms": {
+        "seeds": [
+          71471,
+          2808,
+          37007
+        ],
+        "values": [
+          45.725,
+          50.48,
+          59.24
+        ],
+        "mean": 51.815,
+        "std": 5.598,
+        "ci_95_low": 40.843,
+        "ci_95_high": 62.787
+      },
+      "memory_mb": {
+        "seeds": [
+          71471,
+          2808,
+          37007
+        ],
+        "values": [
+          99.183,
+          14.015,
+          25.1
+        ],
+        "mean": 46.099,
+        "std": 37.808,
+        "ci_95_low": -28.005,
+        "ci_95_high": 120.203
+      },
+      "accuracy_score": {
+        "seeds": [
+          71471,
+          2808,
+          37007
+        ],
+        "values": [
+          67.571,
+          42.818,
+          71.596
+        ],
+        "mean": 60.662,
+        "std": 12.724,
+        "ci_95_low": 35.723,
+        "ci_95_high": 85.601
+      },
+      "f1_score": {
+        "seeds": [
+          71471,
+          2808,
+          37007
+        ],
+        "values": [
+          15.526,
+          7.127,
+          39.571
+        ],
+        "mean": 20.741,
+        "std": 13.749,
+        "ci_95_low": -6.207,
+        "ci_95_high": 47.689
+      },
+      "inference_tps": {
+        "seeds": [
+          71471,
+          2808,
+          37007
+        ],
+        "values": [
+          88.243,
+          52.441,
+          44.533
+        ],
+        "mean": 61.739,
+        "std": 19.017,
+        "ci_95_low": 24.466,
+        "ci_95_high": 99.012
+      },
+      "quality_score": {
+        "seeds": [
+          71471,
+          2808,
+          37007
+        ],
+        "values": [
+          64.301,
+          98.754,
+          88.777
+        ],
+        "mean": 83.944,
+        "std": 14.475,
+        "ci_95_low": 55.573,
+        "ci_95_high": 112.315
+      }
+    }
+  }
+}
